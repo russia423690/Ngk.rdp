@@ -7,7 +7,7 @@ Enable RDP access on GitHub Actions VMs for general use.
 
 2) Fork this repository
 
-3) Go to the Settings tab of your repository, and go to Secrets, add the following secrets:
+3) Go to the Settings tab of your repository, and go to Secrets, add the following secrets:   
 ```
 Name: NGROK_AUTH_TOKEN
 Example Value: (obviously you insert the ngrok auth token of your account that you obtained in step 1)
