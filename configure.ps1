@@ -10,7 +10,7 @@ Invoke-WebRequest -Uri https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows
 Expand-Archive -LiteralPath '.\ngrok.zip'
 
 # Set-up and save ngrok authtoken
-./ngrok/ngrok.exe authtoken $env:NGROK_AUTH_TOKEN
+./ngrok/ngrok.exe authtoken $env:2j7KOinr1zVe4yPfodPjik6kH7M_6GEYt1FuGDArtSnmo4qCY
 
 # Enabling RDP Access
 Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0
